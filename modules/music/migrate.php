@@ -105,17 +105,26 @@ return [
                 ],
                 'index' => 3000
             ],
+            'slug' => [
+                'type' => 'VARCHAR',
+                'length' => 150,
+                'attrs' => [
+                    'null' => false,
+                    'unique' => true
+                ],
+                'index' => 4000
+            ],
             'cover' => [
                 'type' => 'VARCHAR',
                 'length' => 150,
                 'attrs' => [],
-                'index' => 4000
+                'index' => 5000
             ],
             'author' => [
                 'type' => 'VARCHAR',
                 'length' => 50,
                 'attrs' => [],
-                'index' => 5000
+                'index' => 6000
             ],
             'updated' => [
                 'type' => 'TIMESTAMP',
