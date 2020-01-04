@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'music',
-    '__version' => '0.2.0',
+    '__version' => '0.3.0',
     '__git' => 'git@github.com:getmim/music.git',
     '__license' => 'MIT',
     '__author' => [
@@ -107,6 +107,12 @@ return [
                 ],
                 'cover' => [
                     'type' => 'media'
+                ],
+                'content' => [
+                    'type' => 'text'
+                ],
+                'release' => [
+                    'type' => 'number'
                 ],
                 'author' => [
                     'type' => 'text'

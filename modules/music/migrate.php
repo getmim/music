@@ -131,20 +131,32 @@ return [
                 'attrs' => [],
                 'index' => 7000
             ],
+            'content' => [
+                'type' => 'TEXT',
+                'attrs' => [],
+                'index' => 8000
+            ],
+            'release' => [
+                'type' => 'YEAR',
+                'attrs' => [
+                    'null' => TRUE
+                ],
+                'index' => 9000
+            ],
             'updated' => [
                 'type' => 'TIMESTAMP',
                 'attrs' => [
                     'default' => 'CURRENT_TIMESTAMP',
                     'update' => 'CURRENT_TIMESTAMP'
                 ],
-                'index' => 9000
+                'index' => 10000
             ],
             'created' => [
                 'type' => 'TIMESTAMP',
                 'attrs' => [
                     'default' => 'CURRENT_TIMESTAMP'
                 ],
-                'index' => 10000
+                'index' => 11000
             ]
         ]
     ]
