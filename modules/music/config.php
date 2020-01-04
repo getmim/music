@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'music',
-    '__version' => '0.3.0',
+    '__version' => '0.4.0',
     '__git' => 'git@github.com:getmim/music.git',
     '__license' => 'MIT',
     '__author' => [
@@ -112,7 +112,7 @@ return [
                     'type' => 'text'
                 ],
                 'release' => [
-                    'type' => 'number'
+                    'type' => 'date'
                 ],
                 'author' => [
                     'type' => 'text'

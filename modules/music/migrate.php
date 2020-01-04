@@ -137,7 +137,7 @@ return [
                 'index' => 8000
             ],
             'release' => [
-                'type' => 'YEAR',
+                'type' => 'DATE',
                 'attrs' => [
                     'null' => TRUE
                 ],
