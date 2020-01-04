@@ -126,6 +126,11 @@ return [
                 'attrs' => [],
                 'index' => 6000
             ],
+            'meta' => [
+                'type' => 'TEXT',
+                'attrs' => [],
+                'index' => 7000
+            ],
             'updated' => [
                 'type' => 'TIMESTAMP',
                 'attrs' => [
