@@ -51,15 +51,21 @@ return [
                 'attrs' => [],
                 'index' => 6000
             ],
+            'youtube' => [
+                'type' => 'VARCHAR',
+                'length' => 150,
+                'attrs' => [],
+                'index' => 7000
+            ],
             'content' => [
                 'type' => 'TEXT',
                 'attrs' => [],
-                'index' => 7000
+                'index' => 8000
             ],
             'meta' => [
                 'type' => 'TEXT',
                 'attrs' => [],
-                'index' => 8000
+                'index' => 9000
             ],
             'updated' => [
                 'type' => 'TIMESTAMP',
@@ -67,14 +73,14 @@ return [
                     'default' => 'CURRENT_TIMESTAMP',
                     'update' => 'CURRENT_TIMESTAMP'
                 ],
-                'index' => 9000
+                'index' => 10000
             ],
             'created' => [
                 'type' => 'TIMESTAMP',
                 'attrs' => [
                     'default' => 'CURRENT_TIMESTAMP'
                 ],
-                'index' => 10000
+                'index' => 11000
             ]
         ]
     ],
